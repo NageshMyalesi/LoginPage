@@ -1,0 +1,114 @@
+/* reset file */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* Stylimg the body */
+body {
+   background-color: #363636;
+   font-family: 'Patrick Hand', cursive;
+}
+/* utility class */
+.text {
+   color: #382039;
+   padding-bottom: 5%;
+   font-size: 20px;
+}
+#main {
+   background-color: #ffffff;
+   max-width: 350px;
+   margin: auto;
+   margin-top: 3%;
+   box-shadow: 5px 5px 5px black;
+   border-radius: 20px;
+}
+#inside {
+   padding: 7%;
+   max-width: 100%;
+}
+#title {
+   margin: auto;
+   text-align: center;
+   padding-bottom: 18%;
+   font-family: 'Patrick Hand', cursive;
+   color: #4f81c7;
+   font-size: 20px;
+}
+#welcome {
+   text-align: center;
+   padding-bottom: 10%;
+   font-size: 20px;
+}
+#form {
+   position: relative;
+}
+a {
+   color: #0779e4;
+   text-decoration: none;
+}
+a:hover {
+   color: #fa744f; 
+}
+#forgot {
+         text-align: end;
+ }
+#forgot a {
+   font-size: 13px;
+}
+input {
+   width: 100%;
+   outline: none;
+   color: #313131;
+   border-style: none none solid none;
+   border-color: #382039;
+   border-width: 1px;
+   padding:2%;
+   font-size: 20px;
+   margin-bottom: 12px;
+   font-family: 'Patrick Hand', cursive;
+}
+#btn {
+   max-width: 30%;
+   margin: auto;
+}
+#sub {
+   background-color: #6bc5d2;
+   color: #ffffff;
+   border: none;
+   border-radius: 25px;
+   margin-top: 30%;
+}
+#sub:hover {
+   background-color: #01024e;
+}
+#or {
+   background-color: #200f21;
+   color: #fcf9ea;
+   max-width: 10%;
+   border: 2px solid #382039;
+   text-align: center;
+   padding: 1%;
+   margin: auto;
+   margin-top: 10%;
+   margin-bottom: 20%;
+   border-radius: 50%;
+}
+#below {
+   text-align: center;
+   align-items: center;
+   color: #63aabc;
+}
+/* Media Queries */
+@media only screen and (min-width:768px) {
+   #main{
+      max-width: 700px;
+   }
+}
+
+/* @media only screen and (min-width:1024px) {
+   #main{
+      max-width: 900px;
+   }
+} */
+
